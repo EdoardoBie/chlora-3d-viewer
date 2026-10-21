@@ -1,6 +1,6 @@
-# AdmAIre · visualizzatore 3D
+# Chlora · visualizzatore 3D
 
-Pagina statica che mostra due modelli STL in 3D (three.js, senza build e senza dipendenze esterne: librerie e font sono già nella cartella `vendor/` e `fonts/`).
+Pagina statica che mostra in 3D i due modelli STL di Chlora (three.js, senza build e senza dipendenze esterne: librerie e font sono già nella cartella `vendor/` e `fonts/`).
 
 ## Avvio
 

@@ -236,4 +236,4 @@ carica().catch((err) => {
 });
 
 // per i test
-window.__admaire = { impostaModo, controlli, matFilo };
+window.__viewer = { impostaModo, controlli, matFilo };

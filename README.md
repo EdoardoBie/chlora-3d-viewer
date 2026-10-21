@@ -1,6 +1,6 @@
 # Chlora · visualizzatore 3D
 
-Pagina statica che mostra in 3D i due modelli STL di Chlora (three.js, senza build e senza dipendenze esterne: librerie e font sono già nella cartella `vendor/` e `fonts/`).
+Pagina statica che mostra in 3D i tre modelli STL di Chlora (three.js, senza build e senza dipendenze esterne: librerie e font sono già nella cartella `vendor/` e `fonts/`).
 
 ## Avvio
 
@@ -18,10 +18,11 @@ poi apri <http://localhost:8000>.
 - Il modello gira lentamente da solo; si ferma quando lo tocchi e riparte dopo qualche secondo. Il primo pulsante la attiva o la ferma.
 - Pulsanti **+ / −** per lo zoom e **Ricentra la vista**.
 - Da tastiera (con la scena selezionata): **frecce** per spostarti, **+ / −** per lo zoom, **R** per ricentrare.
-- **Modello**: *Tutti*, *Corpo* o *Disco*. In *Tutti* i due modelli sono mostrati nelle posizioni dei file, senza montaggio.
+- **Modello**: *Tutti*, *Corpo*, *Base* o *Tappo*. In *Tutti* i modelli sono mostrati nelle posizioni dei file, senza montaggio (il tappo nel file è lontano dagli altri due pezzi).
 - **Superficie**: piena, wireframe o entrambe; colore e opacità del filo.
 
 ## File
 
 - `modello/corpo-chlora.stl` · corpo cilindrico con la scritta «Chlora»
-- `modello/disco.stl` · disco piatto con incavo
+- `modello/base.stl` · base piatta
+- `modello/tappo.stl` · tappo

@@ -2,8 +2,8 @@ import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/OrbitControls.js';
 import { STLLoader } from 'three/addons/STLLoader.js';
 
-// i due modelli: stesso sistema di coordinate, mostrati così come sono (nessun montaggio)
-const MODELLI = { m1: 'modello/corpo-chlora.stl', m2: 'modello/disco.stl' };
+// i tre modelli: stesso sistema di coordinate, mostrati così come sono (nessun montaggio)
+const MODELLI = { corpo: 'modello/corpo-chlora.stl', base: 'modello/base.stl', tappo: 'modello/tappo.stl' };
 
 const $ = (id) => document.getElementById(id);
 const contenitore = $('scena');
@@ -102,11 +102,11 @@ function creaDisposizione(geometrie) {
 
 async function carica() {
   const loader = new STLLoader();
-  const [g1, g2] = await Promise.all([MODELLI.m1, MODELLI.m2].map((u) => loader.loadAsync(u)));
-  g1.computeVertexNormals(); g2.computeVertexNormals();
-  disposizioni.tutti = creaDisposizione([g1, g2]);
-  disposizioni.m1 = creaDisposizione([g1]);
-  disposizioni.m2 = creaDisposizione([g2]);
+  const nomi = Object.keys(MODELLI);
+  const geo = await Promise.all(nomi.map((n) => loader.loadAsync(MODELLI[n])));
+  geo.forEach((g) => g.computeVertexNormals());
+  disposizioni.tutti = creaDisposizione(geo);
+  nomi.forEach((n, i) => { disposizioni[n] = creaDisposizione([geo[i]]); });
   mostra(document.querySelector('input[name="disp"]:checked').value);
   stato.classList.add('via');
 }

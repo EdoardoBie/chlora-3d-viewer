@@ -1,0 +1,81 @@
+<svg
+   viewBox="8 32 120 72"
+   version="1.1"
+   id="svg1"
+  
+  
+  
+  
+  
+  
+  
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+  >
+  
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient10"
+      >
+      <stop
+         style="stop-color:#432296;stop-opacity:1;"
+         offset="0"
+         id="stop10" />
+      <stop
+         style="stop-color:#0088a4;stop-opacity:1;"
+         offset="1"
+         id="stop11" />
+    </linearGradient>
+    <linearGradient
+      
+       xlink:href="#linearGradient10"
+       id="linearGradient9"
+       x1="85.412498"
+       y1="148.50017"
+       x2="124.5875"
+       y2="148.50017"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+      
+       xlink:href="#linearGradient10"
+       id="linearGradient11"
+       x1="46.354165"
+       y1="148.5"
+       x2="163.64583"
+       y2="148.5"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+    
+    
+     id="layer1"
+     transform="translate(-37.266668,-80.766665)">
+    
+    
+    <path
+       style="display:inline;fill:#f8f8ff;fill-opacity:1;stroke:none;stroke-width:4.23333;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 49,148.5 c 0,8 19.470835,31.95 56,32 36.52917,0.05 56,-24 56,-32 0,-8 -19.47083,-31.95 -56,-32 -36.529165,-0.05 -56,24 -56,32 z"
+       id="path2"
+       />
+    <ellipse
+       style="fill:#09022a;fill-opacity:1;stroke:#333333;stroke-width:0.100013;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none"
+       id="path1"
+       cx="105"
+       cy="148.5"
+       ry="32"
+       rx="30" />
+    
+    <path
+       style="fill:none;fill-opacity:1;stroke:url(#linearGradient9);stroke-width:3.175;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
+       d="m 87,148.5 c 0,0 8.655104,-34.87564 18,0 9.34511,34.87643 18,0 18,0"
+       id="path4"
+       />
+    
+    <path
+       style="display:inline;fill:none;fill-opacity:1;stroke:url(#linearGradient11);stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 49,148.5 c 0,8 19.470835,31.95 56,32 36.52917,0.05 56,-25.97362 56,-32 0,0 -19.47083,-31.95 -56,-32 -36.529165,-0.05 -56,24 -56,32 z"
+       id="path5"
+       />
+  </g>
+</svg>
